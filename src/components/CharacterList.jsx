@@ -5,7 +5,7 @@ const CharactersList = ({ characters = [] }) => {
   return (
     <div className="character-list">
         {characters.map((character) => (
-        <div key={character.id} className="contact-list__item">
+        <div key={character.id} className="character-list__item">
           <CharacterCard
             name = {character.name} 
             status = {character.status} 
